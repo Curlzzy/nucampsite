@@ -4,6 +4,7 @@ $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #17A2BB;
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
@@ -38,7 +39,7 @@ header {
 }
 
 .row-content {
-    padding: 50px 0;
+    padding: 50px;
     border-bottom: 1px ridge;
     min-height: 200px;
 }
@@ -61,3 +62,6 @@ a {
     border: solid $color-secondary;
 
 }
+
+@import 'modal';
+@import 'review-section';

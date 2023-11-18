@@ -28,7 +28,7 @@ header {
 .row-content {
   border-bottom: 1px ridge;
   min-height: 200px;
-  padding: 50px 0;
+  padding: 50px;
 }
 
 a {
@@ -49,6 +49,30 @@ a {
 
 .carousel {
   border: solid #5637dd;
+}
+
+#reserveModal .modal-header {
+  color: #fff;
+  background-color: #17a2bb;
+}
+
+#loginModal .modal-header {
+  color: #fff;
+  background-color: #901cad;
+}
+
+.review-section {
+  background: beige;
+}
+
+.campsite-btn {
+  background: #0dcaf0;
+  border-radius: .5rem;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  padding: .5rem 1rem;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.53678b06.css.map */
